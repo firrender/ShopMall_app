@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_list_item"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="@dimen/ware_grid_img_width"
+        android:layout_height="@dimen/ware_grid_img_height"
+        android:id="@+id/drawee_sort"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center">
+
+    </com.facebook.drawee.view.SimpleDraweeView>
+
+    <TextView
+        android:id="@+id/text_title_sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:maxLines="3"/>
+
+    <TextView
+        android:id="@+id/text_price_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/crimson"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

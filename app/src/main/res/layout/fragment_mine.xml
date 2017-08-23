@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="?attr/colorPrimary">
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/img_head"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:scaleType="center"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_head1"
+                app:riv_border_color="@color/bg_color"
+                app:riv_border_width="2dp"
+                app:riv_oval="true"/>
+
+            <TextView
+                android:layout_below="@+id/img_head"
+                android:id="@+id/txt_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="14dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_my_orders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/largePadding"
+                android:background="@drawable/selector_list_item"
+                android:drawableLeft="@mipmap/ic_orderlist"
+                android:gravity="center_vertical"
+                android:drawablePadding="20dp"
+                android:text="我的订单"
+                android:textColor="@color/black"/>
+
+            <View style="@style/line_vertical"/>
+
+            <TextView
+                android:id="@+id/txt_my_favorite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/largePadding"
+                android:background="@drawable/selector_list_item"
+                android:drawableLeft="@mipmap/ic_saf"
+                android:gravity="center_vertical"
+                android:drawablePadding="20dp"
+                android:text="我的收藏"
+                android:textColor="@color/black"/>
+
+            <View style="@style/line_vertical"/>
+
+            <TextView
+                android:id="@+id/txt_my_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/largePadding"
+                android:background="@drawable/selector_list_item"
+                android:drawableLeft="@mipmap/ic_address"
+                android:gravity="center_vertical"
+                android:drawablePadding="20dp"
+                android:text="我的地址"
+                android:textColor="@color/black"/>
+
+            <View style="@style/line_vertical"/>
+
+            <TextView
+                android:id="@+id/txt_my_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/largePadding"
+                android:background="@drawable/selector_list_item"
+                android:drawableLeft="@mipmap/ic_messege"
+                android:gravity="center_vertical"
+                android:drawablePadding="20dp"
+                android:text="我的地址"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:text="@string/loginout"
+                style="@style/bigRedButton"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

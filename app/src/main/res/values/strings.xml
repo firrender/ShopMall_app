@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Yi购</string>
+    <string name="label">label</string>
+    <string name="home">主页</string>
+    <string name="hot">热卖</string>
+    <string name="sort">分类</string>
+    <string name="cart">购物车</string>
+    <string name="people">我</string>
+    <string name="text_scanning">扫啊扫</string>
+    <string name="message">消息</string>
+    <string name="shopcart">购物车</string>
+    <string name="shopcartedit">编辑</string>
+    <string name="shoplist">商品列表</string>
+    <string name="shopdetail">商品详情</string>
+    <string name="share">分享</string>
+    <string name="login">点击登入</string>
+    <string name="loginout">登出</string>
+    <string name="smssdk_write_identify_code">验证码为空,请重新输入!</string>
+    <string name="myorder">我的订单</string>
+</resources>
