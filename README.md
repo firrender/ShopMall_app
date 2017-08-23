@@ -6,5 +6,4 @@
 
 ####看看UI布局吧：
 
-![首页效果图](https://github.com/firrender/ShopMall_app/blob/master/screenshots/%E5%BA%94%E7%94%A8%E5%AE%9D%E6%88%AA%E5%B1%8F2017082001.png?raw=true)
-![分类效果图](https://github.com/firrender/ShopMall_app/blob/master/screenshots/%E5%BA%94%E7%94%A8%E5%AE%9D%E6%88%AA%E5%B1%8F2017082003.png?raw=true)
+![首页效果图](https://github.com/firrender/ShopMall_app/blob/master/screenshots/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg?raw=true)
